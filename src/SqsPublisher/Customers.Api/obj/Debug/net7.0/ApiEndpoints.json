@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "Customers.Api.Controllers.CustomerController",
+    "Method": "Create",
+    "RelativePath": "customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Customers.Api.Contracts.Requests.CustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Customers.Api.Controllers.CustomerController",
+    "Method": "GetAll",
+    "RelativePath": "customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Customers.Api.Controllers.CustomerController",
+    "Method": "Get",
+    "RelativePath": "customers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Customers.Api.Controllers.CustomerController",
+    "Method": "Update",
+    "RelativePath": "customers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Customer",
+        "Type": "Customers.Api.Contracts.Requests.CustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Customers.Api.Controllers.CustomerController",
+    "Method": "Delete",
+    "RelativePath": "customers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

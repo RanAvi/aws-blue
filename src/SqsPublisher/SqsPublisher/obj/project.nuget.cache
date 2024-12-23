@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Avos6mbpP5E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ran new\\source\\repos\\aws-blue\\src\\SqsPublisher\\SqsPublisher\\SqsPublisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ran new\\.nuget\\packages\\awssdk.core\\4.0.0-preview.4\\awssdk.core.4.0.0-preview.4.nupkg.sha512",
+    "C:\\Users\\ran new\\.nuget\\packages\\awssdk.sqs\\4.0.0-preview.4\\awssdk.sqs.4.0.0-preview.4.nupkg.sha512"
+  ],
+  "logs": []
+}

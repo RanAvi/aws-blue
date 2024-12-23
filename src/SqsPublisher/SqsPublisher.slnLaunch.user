@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SqsPublisher\\SqsPublisher.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SqsConsumer\\SqsConsumer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

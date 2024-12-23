@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YGlm4MLp14VzS4BQykkIqcztjYM6f1JEo1sPM1M+CzE=",
+  "Source": "Customer.consumer",
+  "BasePath": "_content/Customer.consumer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

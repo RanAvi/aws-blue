@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SqsConsumer/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SQS": "4.0.0-preview.4"
+        },
+        "runtime": {
+          "SqsConsumer.dll": {}
+        }
+      },
+      "AWSSDK.Core/4.0.0-preview.4": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.SQS/4.0.0-preview.4": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.0-preview.4"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SQS.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SqsConsumer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/4.0.0-preview.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VeekkHkQVHoQ/5n0Bmbzh0dlfqksMLMYftijZs6zIZ3uv1JWGDTxWHNw3H7FSf1933x1DQRTLSnPbvpTwVLbxw==",
+      "path": "awssdk.core/4.0.0-preview.4",
+      "hashPath": "awssdk.core.4.0.0-preview.4.nupkg.sha512"
+    },
+    "AWSSDK.SQS/4.0.0-preview.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E4N0OSciBUmmNRYbMw9g+QvGelHcN3oZ1dRTVChSgsmDfQ8fQ5WctMagz1gPg3IaMNTqIX0pSKvoXiDTySEyzw==",
+      "path": "awssdk.sqs/4.0.0-preview.4",
+      "hashPath": "awssdk.sqs.4.0.0-preview.4.nupkg.sha512"
+    }
+  }
+}
